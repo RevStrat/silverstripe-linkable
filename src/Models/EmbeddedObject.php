@@ -29,11 +29,11 @@ class EmbeddedObject extends DataObject
     private static $db = [
         'Title' => 'Varchar(255)',
         'Type' => 'Varchar',
-        'SourceURL' => 'Varchar(255)',
+        'SourceURL' => 'Text',
         'Width' => 'Varchar',
         'Height' => 'Varchar',
         'Description' => 'HTMLText',
-        'ThumbURL' => 'Varchar(255)',
+        'ThumbURL' => 'Text',
         'ExtraClass' => 'Varchar(64)',
         'EmbedHTML' => 'Text',
     ];
